@@ -6,7 +6,6 @@ import { Component, EventEmitter, Output} from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  title = 'Projeto Udemy';
   @Output() featureSelected = new EventEmitter<string>();
 
 
